@@ -10,5 +10,3 @@ def emotion_detector(text_to_analyse):
     data['dominant_emotion'] = max(data, key=data.get)
 
     return data
-
-print(emotion_detector("I am so happy I am doing this."))
